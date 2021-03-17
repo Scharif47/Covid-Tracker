@@ -1,11 +1,5 @@
-import React, { useState, useEffect } from "react";
-import {
-  MenuItem,
-  FormControl,
-  Select,
-  Card,
-  CardContent,
-} from "@material-ui/core";
+import React, { useState } from "react";
+import { Card, CardContent } from "@material-ui/core";
 import AppMenu from "./AppMenu";
 import Table from "./Table";
 import Diagram from "../components/Diagram";
@@ -37,7 +31,7 @@ function App() {
 
   const onCasesChange = (inputCases) => {
     setInputCases(inputCases);
-  }
+  };
 
   return (
     <div className="app">

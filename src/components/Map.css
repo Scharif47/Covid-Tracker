@@ -1,0 +1,34 @@
+.map {
+  margin-top: 2rem;
+  height: 30rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: .8rem;
+  box-shadow: 0 0 .3rem .15rem rgba(0,0,0, 0.3);
+}
+
+.map .leaflet-container {
+  height: 100%;
+}
+
+.popup__name {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: black;
+}
+
+.popup__flag {
+  height: 4.2rem;
+  width: 100%;
+  background-size: cover;
+}
+
+.popup__flag img {
+  width: 80px;
+}
+
+.popup__cases,
+.popup__recovered,
+.popup__deaths {
+  font-size: 0.8rem;
+}

@@ -1,0 +1,23 @@
+.cardBox {
+  cursor: pointer;
+}
+
+.cardBox__total {
+  margin-bottom: 1rem;
+}
+
+.cardBox--selected {
+  border-bottom: 0.3rem solid steelblue;
+}
+
+.cardBox--red {
+  border-color: red;
+}
+
+.cardBox--green {
+  border-color: greenyellow;
+}
+
+.cardBox--purple {
+  border-color: rgb(80, 5, 80);
+}

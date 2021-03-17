@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__details {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 650px) {
+  .menu {
+    flex-direction: column;
+  }
+}
